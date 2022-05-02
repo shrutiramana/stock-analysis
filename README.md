@@ -3,7 +3,12 @@ A VBA project to do stock analysis
 
 ### Overview of Project 
 
-	In Module 2 we learned how to perform stock analysis on different green energy stocks using subroutine and macros in VBA excel to help Steve make decisions for his parents about investments.Analysis was done for different tickers for a particular year(2017 or 2018) provided at the input. The purpose of this analysis was to find out “Total Daily Volume” and “Yearly Return” for each stock in a given year and a get a perspective of stock performance at a glance with help of proper formatting. The year was dynamically chosen by the user through an input box. Comparison between time execution of refactored code  and original code was made.
+In Module 2 we learned how to perform stock analysis on different green energy stocks using subroutine and macros in VBA excel to help 
+Steve make decisions for his parents about investments.Analysis was done for different tickers for a particular year(2017 or 2018)
+provided at the input.The purpose of this analysis was to find out “Total Daily Volume” and “Yearly Return” for each 
+stock in a given year and a get a perspective of stock performance at a glance with help of proper formatting.
+The year was dynamically chosen by the user through an input box. Comparison between time execution of refactored code 
+and original code was made.
 
 ### Analysis
 
