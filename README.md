@@ -10,6 +10,7 @@ A VBA project to do stock analysis
 1. Time taken for Stock analysis for the year 2017 for original & refactored code
 
 https://github.com/shrutiramana/stock-analysis/blob/main/Resources/Original%20code%202017.png
+
 https://github.com/shrutiramana/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png
 
 
