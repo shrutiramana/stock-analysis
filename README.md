@@ -9,17 +9,19 @@ A VBA project to do stock analysis
 
 1. Time taken for Stock analysis for the year 2017 for original & refactored code
 
-image 1
+https://github.com/shrutiramana/stock-analysis/blob/main/Resources/Original%20code%202017.png
+https://github.com/shrutiramana/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png
 
 
 2. Time taken for Stock analysis for the year 2018 for original & refactored code
 
-image 2
+original_code 2018.png
+VBA_Challenge_2018.png
 
 In original code ,we use nested for-loops. First in the beginning loop tickers(i) to get the value of the current ticker. In the next for-loop we loop through each row (from 2nd row till the end of the data) to get the rest of the data and then we go to beginning of the first loop for the next ticker. So each ticker goes through all rows i.e around 3013 rows and then again same for next ticker in all 12*3013(about 36,000) rows taking it long for executing the data to determine the totalVolume and Returns.
 
 Below is the snippet of the original code -
-code 1 image 
+original_Code.png
 
 
 
@@ -27,12 +29,13 @@ In Refactored code the analysis was done for year 2017 and 2018 for all stocks u
 
 Below is the snippet of the original code -
 
-code 2 image 
+refactored_code.png
 
 
 
 Results
-results image 
+stock_analysis_2017.png
+stock_analysis_2018.png
 
 The Stock results for 2017 & 2018 are as shown above. The output is same for both the original_code & refactored code.
 In 2017 all stocks performed really well , with a positive return at the end of year except for TERP with only 7.2% return , which did not do well.  DQ-199.4%  was top on the list with its  returns , followed by SEDG & ENPH with 184.5% & 129.5% respectively. 
@@ -40,12 +43,7 @@ In 2017 all stocks performed really well , with a positive return at the end of 
 Difference between the Original_code and Refactored_code  - 
 1. There is a huge difference between the execution times of both codes for each year. 
 
-    * Original_code 
-image 
-
-    * Refactored_code 
-image
-
+Tabular result
 
 ### Summary
 
