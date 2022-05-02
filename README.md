@@ -13,13 +13,12 @@ and original code was made.
 ### Analysis
 
 1. Time taken for Stock analysis for the year 2017 for original & refactored code
-
 ![](https://github.com/shrutiramana/stock-analysis/blob/main/Resources/Original%20code%202017.png)
 ![](https://github.com/shrutiramana/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 
 2. Time taken for Stock analysis for the year 2018 for original & refactored code
-![](https://github.com/shrutiramana/stock-analysis/blob/main/Resources/original%20code%202018.png)
+![](https://github.com/shrutiramana/stock-analysis/blob/main/Resources/Original%20code%202018.png)
 ![](https://github.com/shrutiramana/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 In original code ,we use nested for-loops. First in the beginning loop tickers(i) to get the value of the current ticker. In the next for-loop we loop through each row (from 2nd row till the end of the data) to get the rest of the data and then we go to beginning of the first loop for the next ticker. So each ticker goes through all rows i.e around 3013 rows and then again same for next ticker in all 12*3013(about 36,000) rows taking it long for executing the data to determine the totalVolume and Returns.
@@ -52,23 +51,29 @@ There is a huge difference between the execution times of both codes for each ye
     * There is a detailed statement on the advantages and disadvantages of refactoring code in general.
 
 The intention behind refactoring is simply to achieve better code.Following are the advantages and disadvantages of the refactoring the code in general 
-	### Advantages
-        * Code can be restructured without altering its functionality. 
-        * With refactoring redundancies and duplications can be removed and that can improve the performance of code 
+### Advantages
 	
-	### Disadvantages
-        * If refractor is not done properly we can introduce new bugs and errors in the bug.
-        * Since the output of the code remains the same, unless we have some evident performance improvement statistics it’s difficult to understand why 		refactoring of code is required.
+   1. Code can be restructured without altering its functionality. 
+   2. With refactoring redundancies and duplications can be removed and that can improve the performance of code 
+
+### Disadvantages
+	
+   1. If refractor is not done properly we can introduce new bugs and errors in the bug.
+   2. Since the output of the code remains the same, unless we have some evident performance improvement statistics it’s difficult to understand why 		refactoring of code is required.
 	Source - https://www.ionos.com/digitalguide/websites/web-development/what-is-refactoring/
 	
- * There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script.
+ There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script.
 
-	### Advantages 
-        * The code looks much cleaner with the introduction of arrays and tickerIndex and comprehendible. 
-        * So instead of 2 for-loops , we use tickerIndex and only 1 for loop and we do not repeat the same process for each ticker and hence reduce redundancies & duplication.
-	### Disadvantages	
-        * It’s important to understand why and how we need to refactor the code, as if that is not clear it can cause confusion and might not give desired output and also can introduce bugs.
-        * For a customer since the output of the code is same unless we give tangible results (like performance improvement as in the Challenge above) it would be hard for them to get convinced them for refactoring of code.
+### Advantages 
+   1. The code looks much cleaner with the introduction of arrays and tickerIndex and comprehendible. 
+   2. So instead of 2 for-loops , we use tickerIndex and only 1 for loop and we do not repeat the same process for each ticker and
+      hence reduce redundancies & duplication.
 
-    * Teammates - Ashely Rock, Nick Foley & I collaborated for this project.
+### Disadvantages	
+   1. It’s important to understand why and how we need to refactor the code, as if that is not clear it can cause confusion 
+      and might not give desired output and also can introduce bugs.
+   2. For a customer since the output of the code is same unless we give tangible results (like performance improvement as
+      in the Challenge above) it would be hard for them to get convinced them for refactoring of code.
+
+### Teammates - Ashely Rock, Nick Foley & I collaborated for this project.
 
